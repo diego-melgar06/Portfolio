@@ -21,7 +21,7 @@ const About = () => {
       id="about"
     >
       <img src={Mou} />
-      <h2 className="text-2xl w-[272px]">About</h2>
+      <h2 className="text-3xl w-[272px] underline">About</h2>
       <p className="w-[272px] text-xl leading-9  ">
         Hello again. I present myself with more formability I'm a systems
         engineering student, I'm in my first semester of my degree and I'm

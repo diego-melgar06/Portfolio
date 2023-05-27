@@ -3,7 +3,7 @@ import { BsInstagram, BsLinkedin, BsGithub } from "react-icons/bs"
 import { Link } from "react-scroll"
 const Home = () => {
   return (
-    <section className="grid place-content-center h-[105vh] " id="home">
+    <section className="grid place-content-center min-h-screen" id="home">
       <div className="flex flex-col items-center gap-12">
         <div className="flex flex-col place-items-center ">
           <h1 className="text-3xl font-semibold text-gray-400">Diego Melgar</h1>
