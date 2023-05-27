@@ -1,31 +1,33 @@
 module.exports = {
   env: {
     browser: true,
-    es2021: true
+    es2021: true,
   },
 
   settings: {
     react: {
-      version: 'detect'
-    }
+      version: "detect",
+    },
   },
 
-  extends: ['plugin:react/recommended', 'standard', 'prettier'],
+  extends: ["plugin:react/recommended", "standard", "prettier"],
 
   overrides: [],
 
   parserOptions: {
     ecmaVersion: 13,
-    sourceType: 'module',
+    sourceType: "module",
     ecmaFeatures: {
-      jsx: true
-    }
+      jsx: true,
+    },
   },
 
-  plugins: ['react'],
+  plugins: ["react"],
 
   rules: {
-    'react/react-in-jsx-scope': 'off',
-    'space-before-function-paren': ['error', 'never']
-  }
-};
+    "react/react-in-jsx-scope": "off",
+    "react/prop-types": "off",
+    "react/no-unescaped-entities": "off",
+    "space-before-function-paren": ["error", "never"],
+  },
+}
